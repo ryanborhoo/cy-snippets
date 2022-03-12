@@ -2,7 +2,19 @@
   "name": "cy-snippets",
   "displayName": "cy-snippets",
   "description": "simple cypress snippet",
+  "author": "Ryan Song",
+  "publisher": "ryanborhoo",
   "version": "0.0.1",
+  "keywords": [
+    "cypress",
+    "test",
+    "javascript",
+    "e2e"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanborhoo/cy-snippets.git"
+  },
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.65.0"
@@ -14,6 +26,10 @@
     "snippets": [
       {
         "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
         "path": "./snippets/snippets.code-snippets"
       }
     ]
