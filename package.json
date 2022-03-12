@@ -1,0 +1,21 @@
+{
+  "name": "cy-snippets",
+  "displayName": "cy-snippets",
+  "description": "simple cypress snippet",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
