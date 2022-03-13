@@ -3,7 +3,7 @@
   "displayName": "cy-snippets",
   "description": "simple cypress snippet",
   "author": "Ryan Song",
-  "publisher": "ryanborhoo",
+  "publisher": "ryansong-cy-snippets",
   "version": "0.0.1",
   "keywords": [
     "cypress",

@@ -54,5 +54,14 @@
       "})"
     ],
     "description": "Cypress Test Suite Template"
+  },
+  "Cypress Test Template": {
+    "prefix": "!cyTest",
+    "body": [
+      "it('This is your test case title'$1, () => {",
+      "// Write your test case here",
+      "})"
+    ],
+    "description": "Cypress Test Template"
   }
 }

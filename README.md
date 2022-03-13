@@ -1,50 +1,78 @@
-# cy-snippets README
+# VSCode Cypress Snippets
 
-This is the README for your extension "cy-snippets".
+This cy-snippets is for Cypress code snippets
 
-## Features
+## Installation
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+You can install this extension from VSCode marketplace
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Cypress code snippets support below files
 
-## Extension Settings
+- JavaScript (.js)
+- TypeScript (.ts)
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Features
 
-For example:
+### Cypress Test Project Template: `!cyProject`
 
-This extension contributes the following settings:
+```javascript
+describe("This is your test project title", () => {
+  before(() => {
+    // runs once before all tests
+  });
+  beforeEach(() => {
+    // runs before every it() test block
+  });
+  afterEach(() => {
+    // runs after every it() test block
+  });
+  after(() => {
+    // runs once after all tests
+  });
+  context("This is your test suite title", () => {
+    // -- Start: Cypress Tests --
+    it("This is your test case one title", () => {
+      // Write your test case one here
+    });
+    it("This is your test case two title", () => {
+      // Write your test case two here
+    });
+  });
+});
+```
 
-- `myExtension.enable`: enable/disable this extension
-- `myExtension.thing`: set to `blah` to do something
+### Cypress Test Suite Template: `!cySuite`
 
-## Known Issues
+```javascript
+context("This is your test suite title", () => {
+  before(() => {
+    // runs once before all tests
+  });
+  beforeEach(() => {
+    // runs before every it() test block
+  });
+  afterEach(() => {
+    // runs after every it() test block
+  });
+  after(() => {
+    // runs once after all tests
+  });
+  // -- Start: Cypress Tests --
+  it("This is your test case one title", () => {
+    // Write your test case one here
+  });
+  it("This is your test case two title", () => {
+    // Write your test case two here
+  });
+});
+```
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+### Cypress Test Template: `!cyTest`
 
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 0.0.1
-
-Initial release of cy-snippets
-
----
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-- Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-- Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-- Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+```javascript
+it("This is your test case title", () => {
+  // Write your test case here
+});
+```
