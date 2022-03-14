@@ -83,5 +83,10 @@
       "});"
     ],
     "description": "Cypress Add Command"
+  },
+  "Cypress Ignore Text Case": {
+    "prefix": "!cyNoCase",
+    "body": ["$1{ matchCase: false }"],
+    "description": "Cypress Ignore Text Case"
   }
 }
