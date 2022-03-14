@@ -1,6 +1,6 @@
 # VSCode Cypress Snippets
 
-This cy-snippets is for Cypress code snippets
+This cy-snippets is for Cypress code snippets.
 
 ## Installation
 
