@@ -94,3 +94,11 @@ Cypress.Commands.add("Command name here", () => {
   // Write your command here
 });
 ```
+
+### Cypress Test Template: `!cyNoCase`
+
+```javascript
+{
+  matchCase: false;
+}
+```
