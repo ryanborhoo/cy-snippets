@@ -5,3 +5,7 @@ All notable changes to the "cy-snippets" extension will be documented in this fi
 ## [0.0.1]
 
 - Initial release for cy-snippet extension
+
+## [0.0.2]
+
+- Update new snippets for Cypress request and command
