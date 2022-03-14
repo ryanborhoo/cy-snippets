@@ -4,7 +4,7 @@ This cy-snippets is for Cypress code snippets
 
 ## Installation
 
-You can install this extension from VSCode marketplace
+You can install this extension from VSCode marketplace, search for cy-snippets and install it.
 
 ## Requirements
 
@@ -74,5 +74,23 @@ context("This is your test suite title", () => {
 ```javascript
 it("This is your test case title", () => {
   // Write your test case here
+});
+```
+
+### Cypress Test Template: `!cyAPI`
+
+```javascript
+cy.request({
+  method: " ",
+  url: " ",
+  headers: { "Accept-Language": "en-us" },
+});
+```
+
+### Cypress Test Template: `!cyComm`
+
+```javascript
+Cypress.Commands.add("Command name here", () => {
+  // Write your command here
 });
 ```
