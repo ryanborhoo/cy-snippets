@@ -102,3 +102,9 @@ Cypress.Commands.add("Command name here", () => {
   matchCase: false;
 }
 ```
+
+### Cypress Test Template: `!cyVisiable`
+
+```javascript
+should("be.visible");
+```
