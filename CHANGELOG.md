@@ -13,3 +13,7 @@ All notable changes to the "cy-snippets" extension will be documented in this fi
 ## [0.0.3]
 
 - Update new snippets for text case-insensitive
+
+## [0.0.4]
+
+- Update new snippets for check element is visiable

@@ -88,5 +88,10 @@
     "prefix": "!cyNoCase",
     "body": ["$1{ matchCase: false }"],
     "description": "Cypress Ignore Text Case"
+  },
+  "Cypress Check Element Visible": {
+    "prefix": "!cyVisiable",
+    "body": ["$1should('be.visible')"],
+    "description": "Cypress Check Element Visible"
   }
 }
