@@ -4,7 +4,7 @@
   "description": "simple cypress snippet",
   "author": "Ryan Song",
   "publisher": "ryansong-cy-snippets",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "keywords": [
     "cypress",
     "test",
