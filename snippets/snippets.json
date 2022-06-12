@@ -95,15 +95,21 @@
     "description": "Cypress Ignore Text Case"
   },
 
+  "Cypress Force Event": {
+    "prefix": "!cyForce",
+    "body": ["$1{ force: true }"],
+    "description": "Cypress Ignore Text Case"
+  },
+
   "Cypress Check Element Visible": {
     "prefix": "!cyVisiable",
     "body": ["$1should('be.visible')"],
     "description": "Cypress Check Element Visible"
   },
 
-  "Cypress Find Element By Attribute": {
+  "Cypress Check Element By Attribute": {
     "prefix": "!cyAttr",
     "body": ["$1should('have.attr', 'attributeName', 'attributeVale')"],
-    "description": "Cypress Find Element By Attribute"
+    "description": "Cypress Check Element By Attribute"
   }
 }

@@ -103,13 +103,21 @@ Cypress.Commands.add("Command name here", () => {
 }
 ```
 
+### Cypress Force Event Snippet: `!cyForce`
+
+```javascript
+{
+  force: true;
+}
+```
+
 ### Cypress Check Element Visiable Snippet: `!cyVisiable`
 
 ```javascript
 should("be.visible");
 ```
 
-### Cypress Find Element Attribute Snippet: `!cyAttr`
+### Cypress Check Element Attribute Snippet: `!cyAttr`
 
 ```javascript
 should("have.attr", "attributeName", "attributeVale");
