@@ -17,3 +17,7 @@ All notable changes to the "cy-snippets" extension will be documented in this fi
 ## [0.0.4]
 
 - Update new snippets for check element is visiable
+
+## [0.0.5]
+
+- Update new snippets for find element by attribute

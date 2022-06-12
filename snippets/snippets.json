@@ -28,6 +28,7 @@
     ],
     "description": "Cypress Test Project Template"
   },
+
   "Cypress Test Suite Template": {
     "prefix": "!cySuite",
     "body": [
@@ -55,6 +56,7 @@
     ],
     "description": "Cypress Test Suite Template"
   },
+
   "Cypress Test Template": {
     "prefix": "!cyTest",
     "body": [
@@ -64,6 +66,7 @@
     ],
     "description": "Cypress Test Template"
   },
+
   "Cypress API Calls": {
     "prefix": "!cyAPI",
     "body": [
@@ -75,6 +78,7 @@
     ],
     "description": "Cypress API Calls"
   },
+
   "Cypress Add Command": {
     "prefix": "!cyComm",
     "body": [
@@ -84,14 +88,22 @@
     ],
     "description": "Cypress Add Command"
   },
+
   "Cypress Ignore Text Case": {
     "prefix": "!cyNoCase",
     "body": ["$1{ matchCase: false }"],
     "description": "Cypress Ignore Text Case"
   },
+
   "Cypress Check Element Visible": {
     "prefix": "!cyVisiable",
     "body": ["$1should('be.visible')"],
     "description": "Cypress Check Element Visible"
+  },
+
+  "Cypress Find Element By Attribute": {
+    "prefix": "!cyAttr",
+    "body": ["$1should('have.attr', 'attributeName', 'attributeVale')"],
+    "description": "Cypress Find Element By Attribute"
   }
 }

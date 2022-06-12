@@ -15,7 +15,7 @@ Cypress code snippets support below files
 
 ## Features
 
-### Cypress Test Project Template: `!cyProject`
+### Cypress Test Project Snippet: `!cyProject`
 
 ```javascript
 describe("This is your test project title", () => {
@@ -43,7 +43,7 @@ describe("This is your test project title", () => {
 });
 ```
 
-### Cypress Test Suite Template: `!cySuite`
+### Cypress Test Suite Snippet: `!cySuite`
 
 ```javascript
 context("This is your test suite title", () => {
@@ -69,7 +69,7 @@ context("This is your test suite title", () => {
 });
 ```
 
-### Cypress Test Template: `!cyTest`
+### Cypress Test Case Snippet: `!cyTest`
 
 ```javascript
 it("This is your test case title", () => {
@@ -77,7 +77,7 @@ it("This is your test case title", () => {
 });
 ```
 
-### Cypress Test Template: `!cyAPI`
+### Cypress API Call Snippet: `!cyAPI`
 
 ```javascript
 cy.request({
@@ -87,7 +87,7 @@ cy.request({
 });
 ```
 
-### Cypress Test Template: `!cyComm`
+### Cypress Command Snippet: `!cyComm`
 
 ```javascript
 Cypress.Commands.add("Command name here", () => {
@@ -95,7 +95,7 @@ Cypress.Commands.add("Command name here", () => {
 });
 ```
 
-### Cypress Test Template: `!cyNoCase`
+### Cypress Ignore Case Snippet: `!cyNoCase`
 
 ```javascript
 {
@@ -103,8 +103,14 @@ Cypress.Commands.add("Command name here", () => {
 }
 ```
 
-### Cypress Test Template: `!cyVisiable`
+### Cypress Check Element Visiable Snippet: `!cyVisiable`
 
 ```javascript
 should("be.visible");
+```
+
+### Cypress Find Element Attribute Snippet: `!cyAttr`
+
+```javascript
+should("have.attr", "attributeName", "attributeVale");
 ```
