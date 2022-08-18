@@ -10,6 +10,7 @@
     "test",
     "javascript",
     "e2e"
+
   ],
   "repository": {
     "type": "git",
