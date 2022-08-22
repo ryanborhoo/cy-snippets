@@ -111,5 +111,15 @@
     "prefix": "!cyAttr",
     "body": ["$1should('have.attr', 'attributeName', 'attributeVale')"],
     "description": "Cypress Check Element By Attribute"
+  },
+
+  "Cypress Check Element By Attribute": {
+    "prefix": "!cyExpect",
+    "body": [
+      "cy.get('selector'$1).then(($element) => {",
+      "expect($element).equal('expect result');",
+      "});"
+    ],
+    "description": "Cypress Assertions Expect"
   }
 }

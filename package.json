@@ -1,15 +1,21 @@
 {
-  "name": "cy-snippets",
+  "name": "VScode Cypress Snippet: cy-snippets",
   "displayName": "cy-snippets",
-  "description": "simple cypress snippet",
+  "description": "Some of the common cypress commands",
   "author": "Ryan Song",
   "publisher": "ryansong-cy-snippets",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "keywords": [
     "cypress",
     "test",
     "javascript",
-    "e2e"
+    "e2e",
+    "E2E testing",
+    "UI testing",
+    "QA Automation",
+    "Automation Testing",
+    "SDET",
+    "Software engineer in test"
   ],
   "repository": {
     "type": "git",

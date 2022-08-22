@@ -25,3 +25,8 @@ All notable changes to the "cy-snippets" extension will be documented in this fi
 ## [0.0.6]
 
 - Update new snippets for force event
+
+## [0.0.7]
+
+- Update name and description
+- Add !cyExpect
