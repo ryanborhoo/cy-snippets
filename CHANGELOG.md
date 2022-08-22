@@ -28,5 +28,8 @@ All notable changes to the "cy-snippets" extension will be documented in this fi
 
 ## [0.0.7]
 
-- Update name and description
 - Add !cyExpect
+- 
+## [0.0.7]
+
+- Update name

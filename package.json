@@ -4,7 +4,7 @@
   "description": "Some of the common cypress commands",
   "author": "Ryan Song",
   "publisher": "ryansong-cy-snippets",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "keywords": [
     "cypress",
     "test",
