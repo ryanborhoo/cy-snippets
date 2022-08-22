@@ -1,6 +1,6 @@
 {
-  "name": "VScode Cypress Snippet: cy-snippets",
-  "displayName": "cy-snippets",
+  "name": "cy-snippets",
+  "displayName": "VScode Cypress Snippet:cy-snippets",
   "description": "Some of the common cypress commands",
   "author": "Ryan Song",
   "publisher": "ryansong-cy-snippets",
