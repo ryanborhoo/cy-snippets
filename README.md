@@ -122,3 +122,11 @@ should("be.visible");
 ```javascript
 should("have.attr", "attributeName", "attributeVale");
 ```
+
+### Cypress Assertions Expect: `!cyExpect`
+
+```javascript
+cy.get('selector').then(($element) => {
+    expect($element).equal('expect result');
+});
+```
